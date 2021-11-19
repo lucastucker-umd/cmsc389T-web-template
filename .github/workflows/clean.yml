@@ -14,6 +14,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /afs/glue.umd.edu/home/glue/l/t/ltuck99/../pub/cmsc389T-web-template
+            cd ../pub/
             unalias rm
             rm -rf cmsc389T-web-template
