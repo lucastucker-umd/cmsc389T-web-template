@@ -14,6 +14,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            ssh-add ~/.ssh/id_rsa
             unalias rm
             rm -rf cmsc389T-web-template
