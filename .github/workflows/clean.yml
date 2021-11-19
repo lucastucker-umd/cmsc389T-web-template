@@ -16,4 +16,4 @@ jobs:
           script: |
             ssh-add ~/.ssh/id_rsa
             unalias rm
-            rm -rf lucastucker-umd.github.io
+            rm -rf cmsc389T-web-template
