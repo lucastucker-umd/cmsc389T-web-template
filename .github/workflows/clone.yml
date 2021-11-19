@@ -15,4 +15,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+            cd /afs/glue.umd.edu/home/glue/l/t/ltuck99/pub/cmsc389T-web-template
             git clone git@github.com:lucastucker-umd/cmsc389T-web-template.git
